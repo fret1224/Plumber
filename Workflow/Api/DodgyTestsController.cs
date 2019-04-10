@@ -9,7 +9,7 @@ using Workflow.Services.Interfaces;
 
 namespace Workflow.Api
 {
-    [RoutePrefix("umbraco/backoffice/api/workflow/test")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/test")]
     public class DodgyTestsController : UmbracoAuthorizedApiController
     {
         private readonly IInstancesService _instancesService;

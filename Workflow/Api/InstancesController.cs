@@ -16,7 +16,7 @@ namespace Workflow.Api
     /// <summary>
     /// WebAPI methods for generating the user workflow dashboard
     /// </summary>
-    [RoutePrefix("umbraco/backoffice/api/workflow/instances")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/instances")]
     public class InstancesController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

@@ -21,7 +21,7 @@ namespace Workflow.Api
     /// <summary>
     /// WebAPI methods for generating the user workflow dashboard
     /// </summary>
-    [RoutePrefix("umbraco/backoffice/api/workflow/actions")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/actions")]
     public class ActionsController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

@@ -29,10 +29,10 @@
 	<!-- NUGET ONLY PROPERTIES -->
 	<PropertyGroup>
 		<NuGetPackageName>Plumber</NuGetPackageName>
-		<PackageId>Workflow.Umbraco</PackageId>
+		<PackageId>SiteAssist.Workflow.Umbraco</PackageId>
 		<Copyright>Nathan Woulfe</Copyright>
 		<Owners>Nathan Woulfe</Owners>
-		<Tags>Umbraco UmbracoCMS Workflow</Tags>
+		<Tags>Coffey SiteAssist Umbraco UmbracoCMS Workflow</Tags>
 		<IconUrl>http://icon.com/img.png</IconUrl>
 		<Language>en-GB</Language>
 		<RequireLicenseAcceptance>false</RequireLicenseAcceptance>

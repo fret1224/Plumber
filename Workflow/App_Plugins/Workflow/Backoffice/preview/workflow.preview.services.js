@@ -1,6 +1,6 @@
 ﻿(() => {
 
-    const urlBase = '/umbraco/backoffice/api/workflow/';
+    const urlBase = '/siteassist/backoffice/api/workflow/';
 
     const urls = {
         tasks: urlBase + 'tasks/',

@@ -15,7 +15,7 @@ namespace Workflow.Api
     /// <summary>
     /// Provides an endpoint for exporting the current workflow configuration
     /// </summary>
-    [RoutePrefix("umbraco/backoffice/api/workflow/export")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/export")]
     public class ExportController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

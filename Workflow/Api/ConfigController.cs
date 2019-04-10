@@ -14,7 +14,7 @@ using Workflow.Services.Interfaces;
 
 namespace Workflow.Api
 {
-    [RoutePrefix("umbraco/backoffice/api/workflow/config")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/config")]
     public class ConfigController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

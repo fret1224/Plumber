@@ -31,7 +31,7 @@ deploy:
   - provider: NuGet
     server:
     api_key:
-      secure: ORGl5eR/eDby41oG+g9voQ+lmTDIK9SbEzPawNN9yKTvvdKn/XC97dfnOcX7vIOA
+      #secure: ORGl5eR/eDby41oG+g9voQ+lmTDIK9SbEzPawNN9yKTvvdKn/XC97dfnOcX7vIOA
     skip_symbols: false      
     symbol_server:    
     artifact: /.*\.nupkg/
@@ -45,7 +45,7 @@ deploy:
     description: "Fix footer buttons for trashed content"
     force_update: true
     auth_token:
-        secure: Otbl8p8qCwciDqJgSWCyN0Arfs5XS1CwiHcK+r0F6uz9Rxt4gzBFvlc3cjPV3NxR
+        #secure: Otbl8p8qCwciDqJgSWCyN0Arfs5XS1CwiHcK+r0F6uz9Rxt4gzBFvlc3cjPV3NxR
     artifact: /.*\.zip/     
     on:
         branch: master

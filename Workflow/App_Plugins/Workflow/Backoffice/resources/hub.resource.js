@@ -4,7 +4,7 @@
 
         const scripts = [
             '../App_Plugins/workflow/backoffice/lib/signalr/jquery.signalr-2.2.1.min.js',
-            '/umbraco/backoffice/signalr/hubs'
+            '/siteassist/backoffice/signalr/hubs'
         ];
 
         function initHub(callback) {

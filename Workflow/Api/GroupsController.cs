@@ -12,7 +12,7 @@ using Workflow.Services.Interfaces;
 
 namespace Workflow.Api
 {
-    [RoutePrefix("umbraco/backoffice/api/workflow/groups")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/groups")]
     public class GroupsController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

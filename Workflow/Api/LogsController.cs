@@ -17,7 +17,7 @@ using Logger = log4net.Repository.Hierarchy.Logger;
 
 namespace Workflow.Api
 {
-    [RoutePrefix("umbraco/backoffice/api/workflow/logs")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/logs")]
     public class LogsController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

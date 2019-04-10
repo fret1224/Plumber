@@ -21,7 +21,7 @@ using Constants = Workflow.Helpers.Constants;
 
 namespace Workflow.Api
 {
-    [RoutePrefix("umbraco/backoffice/api/workflow/settings")]
+    [RoutePrefix("siteassist/backoffice/api/workflow/settings")]
     public class SettingsController : UmbracoAuthorizedApiController
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
