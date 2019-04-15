@@ -46,7 +46,7 @@
 
             getAllInstances: (count, page, filter) => request('GET', urls.instances + '/' + count + '/' + page + '/' + (filter || '')),
 
-            getAllInstancesForRange: days => request('GET', urls.instances + 'range/' + days),
+            getAllInstancesForRange: days => request('GET', urls.instances + '/range/' + days),
 
             getAllInstancesForNode: (nodeId, count, page) => request('GET', urls.instances + '/' + nodeId + '/' + count + '/' + page),
 
